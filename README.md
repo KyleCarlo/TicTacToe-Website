@@ -19,8 +19,8 @@ give any commendations about this project.
   - You may see lots of repetitive code.
 
 ## Contact
-Gmail: kyle29.zero@gmail.com
-Yahoomail: kylecarlo.lasala@yahoo.com
-LinkedIn: https://www.linkedin.com/in/kylecarlo/
-Twitter: https://twitter.com/NewbKyle
-Instagram: https://www.instagram.com/kylepot001/
+  - Gmail: kyle29.zero@gmail.com
+  - Yahoomail: kylecarlo.lasala@yahoo.com
+  - LinkedIn: https://www.linkedin.com/in/kylecarlo/
+  - Twitter: https://twitter.com/NewbKyle
+  - Instagram: https://www.instagram.com/kylepot001/

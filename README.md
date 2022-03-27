@@ -1,4 +1,4 @@
-# TicTacToe-Website
+# TicTacToe
 My first own website using HTML, CSS, and Vanilla JavaScript. The idea came from the front end mentor, but I one must have
 premium account to access the resources. I only got the concept through the project preview and made my own specifications
 base on my own idea. I also customized the components. The CSS design mostly came from the project preview. You can visit 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <title>TicTacToe</title>
+</head>
+<body>
+    <section id="upper">
+        <div class="XnO">
+            <img src="/components/X.png" alt="X mark">
+            <img src="/components/O.png" alt="O mark">
+        </div>
+        <div class="turn-id">
+            <img class="turn-id-img" src="/components/x-silver.png" alt="x-turn">
+            <span class="turn-text">TURN</span>
+        </div>
+        <div class="reset">
+            <img class="reset-img" src="/components/refreshing.png" alt="reset">
+        </div>
+    </section>
+
+    <section id="grid">
+        <div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </section>
+
+    <section id="lower">
+        <div class="player1">
+            <p>PLAYER 1</p>
+            <h1>0</h1>
+        </div>
+        <div class="ties">
+            <p>TIES</p>
+            <h1>0</h1>
+        </div>
+        <div class="player2">
+            <p>PLAYER 2</p>
+            <h1>0</h1>
+        </div>
+    </section>
+
+    <section id="end">
+        <div>
+            <h1>Start</h1>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

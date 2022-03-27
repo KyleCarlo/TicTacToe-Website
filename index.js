@@ -64,7 +64,7 @@ function resetGame(hardReset){
     for (i = 0; i < 9; i++){
         document.querySelectorAll("div.box")[i].textContent = "";
     }
-    document.querySelector(".turn-id-img").setAttribute("src", "/components/X-silver.png");
+    document.querySelector(".turn-id-img").setAttribute("src", "components/X-silver.png");
     if (hardReset){
         player1 = 1;
         player2 = 1;
@@ -97,8 +97,8 @@ for (let index = 0; index < document.querySelectorAll(".box").length; index++) {
         }
 
         if (board[Math.floor(index / 3) + 1][Math.floor(index % 3)] === "") {
-            document.querySelector(".turn-id-img").setAttribute("src", "/components/" + mark2 + "-silver.png");
-            this.innerHTML = '<img src="/components/' + mark + '.png" alt="' + mark + '"></img>';
+            document.querySelector(".turn-id-img").setAttribute("src", "components/" + mark2 + "-silver.png");
+            this.innerHTML = '<img src="components/' + mark + '.png" alt="' + mark + '"></img>';
             board[Math.floor(index / 3) + 1][Math.floor(index % 3)] = mark;
             checkWin(mark);
             turn++;
